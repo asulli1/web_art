@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.clouds {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    /*vh = viewport height (what u can see on the window)*/
+    object-fit: cover;
+    /* object fit = makes the image or video fit into the window or section it resides in */
+    object-position: left;
+}
+
+.star {
+    width: 200px;
+    object-fit: cover;
+}
+
+.corner-message {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: blanchedalmond;
+    background-size: auto;
+    padding: 2em;
+    font-size: 2rem;
+    box-shadow: -20px 20px 10px white;
+}
+
+
+.welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10vw;
+    color:aliceblue;
+    mix-blend-mode: color-burn;
+    text-shadow: 5px 5px blue, 10px 10px white;
+    border: 5px dotted black;
+}
