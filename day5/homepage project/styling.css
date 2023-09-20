@@ -1,0 +1,91 @@
+.graffiti {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    /*vh = viewport height (what u can see on the window)*/
+    object-fit: cover;
+    /* object fit = makes the image or video fit into the window or section it resides in */
+    object-position: left;
+}
+
+.stars{ 
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idk-background {
+    background-color: white;
+    text-align: center;
+}
+
+.artist-statement {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+.sidebar-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+}
+
+.sidebar {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    background-color: white;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+.contact{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+   background-color: white;
+}
+
+.contact2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    font-size:8vh;
+    color: aqua;
+    mix-blend-mode: luminosity;
+
+}
+
+marquee {
+    background-color: yellow;
+    mix-blend-mode: multiply;
+}
