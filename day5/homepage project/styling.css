@@ -11,6 +11,15 @@
     object-position: left;
 }
 
+.graffiti2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    object-position: cover;
+}
+
 .stars{ 
     width: 100%;
 }
@@ -88,4 +97,14 @@ section h2 {
 marquee {
     background-color: yellow;
     mix-blend-mode: multiply;
+}
+
+.sketchbook {
+    max-height: 15em;
+    padding: 20px;
+}
+
+.poster {
+    max-height: 20 em;
+    padding: 20 em;
 }
