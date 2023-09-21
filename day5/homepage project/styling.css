@@ -105,6 +105,6 @@ marquee {
 }
 
 .poster {
-    max-height: 20 em;
-    padding: 20 em;
+    height: 20em;
+    padding: 20px;
 }
