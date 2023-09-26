@@ -1,0 +1,80 @@
+html { 
+    scroll-behavior: smooth;
+}
+
+.box {
+    background-color: darkolivegreen;
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.absolute {
+    background-color: blanchedalmond;
+    position: absolute;
+    right: 20px;
+    top: 1000px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: grey;
+    right: 0;
+    top: 30px;
+}
+
+.relative {
+    background-color: khaki;
+    color: white;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 10rem;
+    height: 10rem;
+    display: block;
+}
+
+.child {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+
+.dialog {
+    background-color: lightgray;
+    width: 10rem;
+    height: 5rem;
+    position: relative;
+}
+
+.dialog-child {
+    background-color: grey;
+    width: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.dialog-x {
+    background-color: red;
+    color: white;
+    width: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+
+.sticky {
+    background-color: cadetblue;
+    color: white;
+    position: sticky;
+    top: 50px;
+    left: 100px;
+}
+
