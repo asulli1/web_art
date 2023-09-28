@@ -48,6 +48,11 @@ h2 {
     font-family: Arial, sans-serif;
     display: flex;
     margin: 0;
+    position: sticky;
+}
+
+.secret{
+    opacity: 0.2;
 }
 
 .sidebar {
@@ -63,10 +68,12 @@ h2 {
     display: block;
     color: black;
     text-decoration: none;
+    position: sticky;
 }
 
 .sidebar a:hover {
     background-color: white;
+
 }
 
 .content {
@@ -114,4 +121,34 @@ marquee {
 .poster {
     height: 20em;
     padding: 20px;
+}
+
+.fixed{
+    position: fixed;
+    right: 0;
+    top: 250px;
+    height: 15rem;
+}
+
+.fixed2{
+    position: fixed;
+    left: 0;
+    top: 450px;
+    height: 15rem;
+}
+
+.fixed3{  
+    position: fixed;
+    left: 0;
+    top: 250px;
+    height: 5rem;
+
+}
+
+.fixed4{  
+    position: fixed;
+    right: 0;
+    top: 550px;
+    height: 5rem;
+
 }
