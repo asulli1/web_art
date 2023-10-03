@@ -166,3 +166,41 @@ marquee {
     top: 645px;
     height: 20px;
 }
+
+.eight {
+    height: 20px;
+    top: 500px;
+    right: 120px;
+}
+
+.nine {
+    height: 20px;
+    top: 650px;
+    right: 90px;
+}
+
+.ten {
+    height: 20px;
+    top: 575px;
+    right: 200px;
+}
+
+.girl {
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    right: 50%;
+    color: red;
+}
+
+.heart-gif {
+   position: absolute;
+   top: 50%;
+   right: 50%;
+}
+
+.redbull {
+    height: 140px;
+    top: 500px;
+    right: 80px;
+}
