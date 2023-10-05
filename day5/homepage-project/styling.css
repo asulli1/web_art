@@ -204,3 +204,13 @@ marquee {
     top: 500px;
     right: 80px;
 }
+
+.webring{
+    text-align: center;
+    padding: 1rem;
+}
+
+.webring a {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
