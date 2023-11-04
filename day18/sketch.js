@@ -15,16 +15,16 @@ function draw() {
     push()
     translate(mouseX -width/2, mouseY -height/2)
 
-    // rotateX(map(mouseX, 0, width, 0, 360))
-    // rotateY(map(mouseX, 0, width, 0, 360))
+    rotateX(map(mouseX, 0, width, 0, 360))
+    rotateY(map(mouseX, 0, width, 0, 360))
 
     rotateX(frameCount * 10)
     rotateY(frameCount * 10)
 
-    // scale(map(mouseX, 0, width, 0.1, 2))
-    // scale(frameCount/1000)
+    scale(map(mouseX, 0, width, 0.1, 2))
+    scale(frameCount/1000)
 
-    torus(30, 15)
+    box(30)
     pop()
 }
 
