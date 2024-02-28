@@ -1,0 +1,30 @@
+\documentclass[a4paper, landscape]{article}
+\usepackage[margin=0in]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{color}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{tikzpicture}[remember picture, overlay]
+  % Background
+  \node[inner sep=0pt, anchor=center] at (current page.center) {\includegraphics[width=\paperwidth,height=\paperheight]{background.jpg}};
+  
+  % Grunge elements
+  \draw[line width=5pt, color=white, opacity=0.5] (current page.south west) rectangle (current page.north east);
+  \draw[line width=2pt, color=red!50!black, opacity=0.8] (current page.south west) -- (current page.north east);
+  \draw[line width=2pt, color=green!50!black, opacity=0.8] (current page.south east) -- (current page.north west);
+  
+  % Text
+  \node[align=center, text width=0.8\paperwidth, color=white] at (current page.center) {
+    \Huge\bfseries Your Poster Title Here
+  };
+
+  \node[align=center, text width=0.8\paperwidth, color=white] at (current page.south) {
+    \Large Your Name or Event Details
+  };
+\end{tikzpicture}
+
+\end{document}
